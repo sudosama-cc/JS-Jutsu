@@ -1,3 +1,3 @@
-python3 jscrawl.py -u https://wallet.oasis.io -o jscrawl.txt
+python3 jscrawl.py -u https://target.com -o jscrawl.txt
 python3 jsdown.py -f jscrawl.txt -d jsdown
 python3 jshunt.py -d jsdown -o jshunt.txt
