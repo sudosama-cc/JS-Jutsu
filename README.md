@@ -9,7 +9,9 @@ pip3 install -r requirements.txt
 
 #### jscrawl
 ```bash
-python3 jscrawl.py -u https://target.com -o jscrawl.txt
+python3 jscrawl.py -d https://target.com
+-
+python3 jscrawl.py -list targets.txt
 ```
 Finds and saves the target site's javascript endpoints.
 
