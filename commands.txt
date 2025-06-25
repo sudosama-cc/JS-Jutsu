@@ -1,4 +1,4 @@
 python3 jscrawl.py -d https://target.com -o jscrawl.txt
-python3 jscrawl.py -list targets.txt -o jscrawl.txt
+python3 jscrawl.py -list targets.txt -o jscrawl
 python3 jsdown.py -f jscrawl.txt -d jsdown
 python3 jshunt.py -d jsdown -o jshunt.txt
